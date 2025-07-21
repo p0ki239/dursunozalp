@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DURSUN ÖZALP</title>
+  <style>
+    body {
+      background-color: black;
+      color: #00ff00;
+      font-family: 'Courier New', Courier, monospace;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      border: 2px solid #00ff00;
+      padding: 20px;
+      max-width: 600px;
+      margin: 50px auto;
+      box-shadow: 0 0 20px #00ff00;
+      text-align: center;
+    }
+
+    h1, h2 {
+      text-shadow: 0 0 5px #00ff00;
+    }
+
+    .profile-photo {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #00ff00;
+      box-shadow: 0 0 15px #00ff00;
+      margin-bottom: 20px;
+    }
+
+    .info {
+      text-align: left;
+      margin-top: 20px;
+    }
+
+    .info p {
+      margin: 10px 0;
+    }
+
+    .matrix-effect {
+      font-size: 14px;
+      animation: flicker 1.5s infinite alternate;
+    }
+
+    @keyframes flicker {
+      0% { opacity: 1; }
+      100% { opacity: 0.6; }
+    }
+
+    a {
+      color: #00ff00;
+      text-decoration: underline;
+    }
+
+    a:hover {
+      text-shadow: 0 0 10px #00ff00;
+    }
+
+    .music-note {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      background-color: rgba(0, 0, 0, 0.85);
+      padding: 10px 15px;
+      border: 1px solid #00ff00;
+      border-radius: 10px;
+      font-size: 14px;
+      z-index: 1000;
+      box-shadow: 0 0 10px #00ff00;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="music-note">
+    Bu sayfayı incelerken arkada müzik dinleyin:<br>
+    <a href="https://open.spotify.com/playlist/7v1xSylg40vJnXLlvFlwfH?si=c0e188d01f624756" target="_blank">Spotify çalma listesi</a>
+  </div>
+
+  <div class="container">
+    <img src="images/dursun.png" alt="Profil Fotoğrafı" class="profile-photo" />
+    <h1>PROFİL VERİLERİ</h1>
+    <h2 class="matrix-effect">[DOSYA AÇILIYOR...]</h2>
+    <div class="info">
+      <p><strong>Ad:</strong> Dursun Özalp</p>
+      <p><strong>Takma Ad:</strong> Not Not Not</p>
+      <p><strong>Doğum Tarihi:</strong> 16.09.1972</p>
+      <p><strong>Lokasyon:</strong> Aksaray, Merkez</p>
+      <p><strong>Meslek:</strong> Fen Bilimleri Öğretmeni / Şovmen</p>
+      <p><strong>Hakkında:</strong> Dursun, Fatih Sultan Mehmet Ortaokulu'nda çalışan bir fen bilimleri öğretmenidir. Genellikle "Not Not Not Dursun" veya "Dursun Babapro" olarak bilinen Dursun'un öne çıkan en önemli özelliği de başıboş, leyla, lakayıt kişilere nefret duymasıdır. Konuşmalarından da anlaşılacağı üzere Dursun, okuldaki öğretmenlerle sık sık tartışma içerisinde olan birisidir.</p>
+      <p><strong>İletişim:</strong> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">dursun@özalp.zn</a></p>
+    </div>
+  </div>
+</body>
+</html>
